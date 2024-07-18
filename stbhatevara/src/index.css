@@ -1,0 +1,21 @@
+/* Reset some default browser styles */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Apply styles to all elements by default */
+* {
+  box-sizing: border-box;
+}
+
+ Style for the main App container 
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
